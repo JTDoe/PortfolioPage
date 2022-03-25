@@ -6,15 +6,26 @@
 
 
 .nav a {
-  color: green;
+  font-family: 'inspiration' , cursive;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: black;
+ padding-top:25px;
+ transition-property: font-size;
+ transition-duration: 4s;
+ transition-delay: 2s;
 }
+.nav {
+
+}
+
 .main-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   width: 100%;
   height: 100%;
-  background-image: url("cool-background.png");
+ background-color: 	#EEEEEE;
 }
 .profilepic {
   display: flex;
@@ -22,14 +33,22 @@
   align-items: center;
   justify-content: center;
 }
+
 .profilepic h1{
-  color: white;
-  text-shadow: 3px 3px blue;
+  font-family: 'Caveat', cursive;
+  color: black;
+  text-transform: uppercase;
 }
+
 .profilepic h5{
-  color: white;
-  text-shadow: 3px 3px green;
+  font-family: 'Caveat', cursive;
+  color: black;
 }
+
+.profilepic img {
+  border-radius: 45px;
+}
+
 .SocialList {
   display: flex;
   flex-direction: column;
@@ -37,15 +56,19 @@
   justify-content: flex-end;
   padding-bottom: 200px;
 }
+
 .SocialList ul {
   list-style: none;
 }
+
 .SocialList button {
   background: transparent;
   border: none;
+  border-radius: 35px;
   margin-top: 25px;
+  transition: transform .7s ease-in-out;
 }
-.SocialList ul li button img:hover {
-  background-color: transparent;
-  box-shadow: 5px 5px 5px  blue;
+
+.SocialList ul li button:hover {
+  transform: rotate(360deg);
 }
