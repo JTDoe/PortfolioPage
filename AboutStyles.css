@@ -1,11 +1,26 @@
 #main-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
   margin: 0%;
 }
 
 .Header {
 grid-column: 1/4;
 text-align: center;
+}
+
+.left-column {
+  background-image: ;
+  padding: 125px;
+  height: auto;
+}
+
+.center-column {
+background-image: url(./IMG_5728\ Large.jpeg);
+background-size: contain;
+background-repeat:no-repeat;
+}
+
+.right-column {
+  background-image: ;
 }
