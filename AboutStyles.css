@@ -7,20 +7,77 @@
 .Header {
 grid-column: 1/4;
 text-align: center;
+font-size: x-large;
+}
+
+.header h1 {
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  font-family: 'Satisfy', cursive;
+}
+
+.header h2 {
+  font-family: 'Satisfy', cursive;
 }
 
 .left-column {
-  background-image: ;
-  padding: 125px;
+  color: white;
+  background-image: url(./IMG_5818\ Large.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 325px;
   height: auto;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
 }
 
 .center-column {
+color: white;
 background-image: url(./IMG_5728\ Large.jpeg);
-background-size: contain;
+background-size: cover;
 background-repeat:no-repeat;
+padding-top: 325px;
+height: auto;
+margin: 75px 5px 5px 5px;
+text-align: center;
 }
 
 .right-column {
-  background-image: ;
+  color: white;
+  background-image: url(./Golf.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 325px;
+  height: auto;
+  margin: 150px 5px 5px 5px;
+  text-align: center;
 }
+
+.footer {
+  width: 100%;
+  height: auto;
+}
+
+.SocialList {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.SocialList ul {
+  display: flex;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+.SocialList button {
+  background: transparent;
+  border: none;
+  border-radius: 35px;
+  margin-top: 25px;
+  transition: transform .7s ease-in-out;
+}
+
+.SocialList ul li button:hover {
+  transform: rotate(360deg);
