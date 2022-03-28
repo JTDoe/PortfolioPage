@@ -1,0 +1,21 @@
+
+body > section > h2 {
+  font-family: 'IBM Plex Serif', serif;
+  text-transform: uppercase;
+
+}
+
+body > section > p {
+text-transform: uppercase;
+font-size: small;
+}
+
+body > section > div > div.col-md-3.text-center {
+
+}
+
+body > section > div > div.col-md-9.mb-md-0.mb-5 > div.text-center.text-md-left > a {
+  background-color: black;
+  border: none;
+  font-family: 'IBM Plex Serif', serif;
+}
