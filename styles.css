@@ -10,6 +10,7 @@
   text-transform: uppercase;
   font-size: 40px;
   color: black;
+  text-shadow: 2px 2px lightblue;
  padding-top:25px;
  transition-property: font-size;
  transition-duration: 4s;
