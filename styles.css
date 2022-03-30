@@ -73,3 +73,15 @@
 .SocialList ul li button:hover {
   transform: rotate(360deg);
 }
+
+@media only screen and (max-width: 576px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .nav {
+    text-align: center;
+  }
+}
