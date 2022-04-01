@@ -1,10 +1,21 @@
-header {
-  text-align: center;
-  width: 100%;
+nav {
+  justify-content: center;
 }
-header h1 {
-  color: aqua;
+.nav a {
+  font-family: 'inspiration' , cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: black;
+  text-shadow: 2px 2px lightblue;
+ padding-top:25px;
+ transition-property: font-size;
+ transition-duration: 4s;
+ transition-delay: 2s;
 }
+.nav a:hover {
+  color: blue;
+}
+
 #mycarousel {
   width: 350px;
   height: 360px;

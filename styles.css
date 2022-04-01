@@ -32,13 +32,15 @@ nav {
 }
 #name {
   text-align: center;
+  padding-top: 50%;
 }
 #name span {
-font-family: 'inspiration' , cursive;
+font-family: 'Permanent Marker', cursive;
 letter-spacing: 5px;
 font-size: 50px;
 writing-mode: vertical-rl;
 text-orientation: upright;
+text-shadow: 2px 2px lightblue;
 }
 .profilepic {
   grid-column: 2/3;
@@ -90,8 +92,11 @@ text-orientation: upright;
 @media only screen and (max-width: 576px) {
   .main-container {
     display: block;
-    grid-template-columns: 1fr;
     height: auto;
+  }
+
+  #name {
+    padding-top: 10%;
   }
   #name span {
     padding-top: 40px;
