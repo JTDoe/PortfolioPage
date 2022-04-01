@@ -3,7 +3,10 @@
   margin: 0;
   height: auto;
 }
-
+nav {
+  background-color: 	#EEEEEE;
+  justify-content: center;
+}
 .nav a {
   font-family: 'inspiration' , cursive;
   text-transform: uppercase;
@@ -27,7 +30,18 @@
   height: 100%;
  background-color: 	#EEEEEE;
 }
+#name {
+  text-align: center;
+}
+#name span {
+font-family: 'inspiration' , cursive;
+letter-spacing: 5px;
+font-size: 50px;
+writing-mode: vertical-rl;
+text-orientation: upright;
+}
 .profilepic {
+  grid-column: 2/3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,10 +89,15 @@
 
 @media only screen and (max-width: 576px) {
   .main-container {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr;
     height: auto;
   }
+  #name span {
+    padding-top: 40px;
+    writing-mode: horizontal-tb;
+      text-orientation: mixed;
+    }
 
   .nav {
     text-align: center;
