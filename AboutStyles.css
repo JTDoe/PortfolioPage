@@ -113,3 +113,17 @@ text-align: center;
 
 .SocialList ul li button:hover {
   transform: rotate(360deg); }
+
+  @media only screen and (max-width: 576px) {
+    #main-container {
+      display: block;
+    }
+
+    .center-column {
+      margin: 0;
+    }
+
+    .right-column {
+      margin: 0;
+    }
+  }

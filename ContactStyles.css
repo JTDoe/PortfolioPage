@@ -1,3 +1,7 @@
+body {
+  background-color: 	#EEEEEE;
+}
+
 nav {
   justify-content: center;
 }
@@ -31,6 +35,26 @@ body > section > div > div.col-md-9.mb-md-0.mb-5 > div.text-center.text-md-left 
   background-color: black;
   border: none;
   font-family: 'IBM Plex Serif', serif;
+}
+
+.SocialList ul {
+  display: flex;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  justify-content: center;
+}
+
+.SocialList button {
+  background: transparent;
+  border: none;
+  border-radius: 35px;
+  margin-top: 25px;
+  transition: transform .7s ease-in-out;
+}
+
+.SocialList ul li button:hover {
+  transform: rotate(360deg);
 }
 
 @media only screen and (max-width: 576px) {

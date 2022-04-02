@@ -1,3 +1,7 @@
+body {
+  background-color: 	#EEEEEE;
+}
+
 nav {
   justify-content: center;
 }
@@ -35,17 +39,12 @@ justify-content: center;
   height: auto;
 }
 
-.SocialList {
-  display: flex;
-  justify-content: center;
-  
-}
-
 .SocialList ul {
   display: flex;
   list-style: none;
   margin: 0%;
   padding: 0%;
+  justify-content: center;
 }
 
 .SocialList button {
@@ -58,8 +57,4 @@ justify-content: center;
 
 .SocialList ul li button:hover {
   transform: rotate(360deg);
-}
-
-a span {
-  color: aqua;
 }
