@@ -2,27 +2,27 @@ body {
   width: 100%;
   margin: 0;
   height: auto;
-  background-color: 	#EEEEEE;
+  background-color: #eeeeee;
 }
 nav {
   justify-content: center;
 }
 .nav a {
-  font-family: 'inspiration' , cursive;
+  font-family: "Source Serif Pro", serif;
   text-transform: uppercase;
   font-size: 40px;
   color: black;
   text-shadow: 2px 2px lightblue;
- padding-top:25px;
- transition-property: font-size;
- transition-duration: 4s;
- transition-delay: 2s;
+  padding-top: 25px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
 }
 .nav a:hover {
   color: blue;
 }
 
-.main-container{
+.main-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -35,12 +35,12 @@ nav {
   padding-top: 50%;
 }
 #name span {
-font-family: 'Permanent Marker', cursive;
-letter-spacing: 5px;
-font-size: 50px;
-writing-mode: vertical-rl;
-text-orientation: upright;
-text-shadow: 2px 2px lightblue;
+  font-family: "Source Serif Pro", serif;
+  letter-spacing: 5px;
+  font-size: 50px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-shadow: 2px 2px lightblue;
 }
 .profilepic {
   grid-column: 2/3;
@@ -50,14 +50,14 @@ text-shadow: 2px 2px lightblue;
   justify-content: center;
 }
 
-.profilepic h1{
-  font-family: 'Caveat', cursive;
+.profilepic h1 {
+  font-family: "Caveat", cursive;
   color: black;
   text-transform: uppercase;
 }
 
-.profilepic h5{
-  font-family: 'Caveat', cursive;
+.profilepic h5 {
+  font-family: "Caveat", cursive;
   color: black;
 }
 
@@ -82,7 +82,7 @@ text-shadow: 2px 2px lightblue;
   border: none;
   border-radius: 35px;
   margin-top: 25px;
-  transition: transform .7s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
 
 .SocialList ul li button:hover {
@@ -101,8 +101,8 @@ text-shadow: 2px 2px lightblue;
   #name span {
     padding-top: 40px;
     writing-mode: horizontal-tb;
-      text-orientation: mixed;
-    }
+    text-orientation: mixed;
+  }
 
   .nav {
     text-align: center;
