@@ -49,9 +49,9 @@
         <div class="col-md-9 mb-md-0 mb-5">
           <form
             id="contact-form"
-            name="contact-form"
+            class="fcf-form-class"
+            method="post"
             action="mail.php"
-            method="POST"
           >
             <!--Grid row-->
             <div class="row">
@@ -65,6 +65,7 @@
                     class="form-control"
                     placeholder="Your Name"
                   />
+
                   <label for="name" class=""></label>
                 </div>
               </div>
@@ -83,11 +84,8 @@
               </div>
               <!--Grid column-->
             </div>
-            <br />
-            <!--Grid row-->
-
-            <!--Grid row-->
-            <div class="row">
+            <br <!--Grid row <!--Grid row-- />
+            <!-- <div class="row">
               <div class="col-md-12">
                 <div class="md-form mb-0">
                   <input
@@ -99,10 +97,10 @@
                   />
                   <label for="subject" class=""></label>
                 </div>
-              </div>
-            </div>
+              </div> -->
+            <!-- </div>  -->
             <br />
-            <!--Grid row-->
+            <!--Grid row -->
 
             <!--Grid row-->
             <div class="row">
@@ -126,6 +124,8 @@
           <div class="text-center text-md-left">
             <a
               class="btn btn-primary"
+              input type="submit"
+              value="Send Form"
               onclick="document.getElementById('contact-form').submit();"
               >Send</a
             >
